@@ -1,0 +1,22 @@
+{
+  "name": "pdoc",
+  "version": "1.0.0",
+  "description": "P Document Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiShiSangZi/pdoc.git"
+  },
+  "author": "gogocrow <jane19861227@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiShiSangZi/pdoc/issues"
+  },
+  "homepage": "https://github.com/LiShiSangZi/pdoc#readme",
+  "dependencies": {
+    "gitbook-cli": "^2.3.0"
+  }
+}
