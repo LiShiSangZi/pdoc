@@ -36,6 +36,14 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-# Generated gitbook files
-_book
+# Builded HTML source code
 
+_book/
+
+# VSCode config
+
+.vscode/
+
+# Yarn lockfile
+
+yarn.lock

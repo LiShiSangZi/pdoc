@@ -1,23 +1,12 @@
 {
-  "name": "pdoc",
-  "version": "1.0.0",
-  "description": "P Document Framework",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/gitbook-cli/bin/gitbook.js build"
+    "build": "node ./node_modules/gitbook-cli/bin/gitbook.js build ./sources",
+    "host-dev": "node ./node_modules/gitbook-cli/bin/gitbook.js serve --port 3000",
+    "book-install": "node ./node_modules/gitbook-cli/bin/gitbook.js install"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LiShiSangZi/pdoc.git"
-  },
-  "author": "gogocrow <jane19861227@hotmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LiShiSangZi/pdoc/issues"
-  },
-  "homepage": "https://github.com/LiShiSangZi/pdoc#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "gitbook-api": "^3.0.2",
     "gitbook-cli": "^2.3.0"
   }
 }
