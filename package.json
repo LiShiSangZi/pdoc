@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build": "node ./node_modules/gitbook-cli/bin/gitbook.js build ./sources",
-    "host-dev": "node ./node_modules/gitbook-cli/bin/gitbook.js serve --debug"
+    "host-dev": "node ./node_modules/gitbook-cli/bin/gitbook.js serve --debug",
+    "book-install": "node ./node_modules/gitbook-cli/bin/gitbook.js install"
   },
   "dependencies": {},
   "devDependencies": {
