@@ -1,11 +1,11 @@
 {
   "scripts": {
-    "build": "gitbook build ./sources ./dist",
-    "host-dev": "gitbook serve --debug",
-    "build-dev": "gitbook build ./sources ./dist --log=debug --debug"
+    "build": "node ./node_modules/gitbook-cli/bin/gitbook.js build ./sources",
+    "host-dev": "node ./node_modules/gitbook-cli/bin/gitbook.js serve --debug"
   },
   "dependencies": {},
   "devDependencies": {
-    "gitbook-api": "^3.0.2"
+    "gitbook-api": "^3.0.2",
+    "gitbook-cli": "^2.3.0"
   }
 }
