@@ -1,2 +1,6 @@
-# pdoc
-P Document Framework
+# 使用说明
+
+## 文档结构和注意事项
+
+- `./sources`是存放**markdown说明文档**的根目录,按照目录规则创建对应的说明文档.
+- 

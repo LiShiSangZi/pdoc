@@ -35,3 +35,11 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Builded HTML source code
+
+_book/
+
+# VSCode config
+
+.vscode/

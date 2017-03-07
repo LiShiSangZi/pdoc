@@ -1,0 +1,13 @@
+{
+    "root": "./sources",
+    "title": "用户指南",
+    "language": "zh-hans",
+    "plugins": [
+        "-sharing",
+        "-fontsettings",
+        "-search",
+        "-lunr",
+        "polex@git+https://github.com/marsoln/gitbook-plugin-polex.git",
+        "-theme-default"
+    ]
+}
