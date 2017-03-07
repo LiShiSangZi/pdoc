@@ -43,3 +43,7 @@ _book/
 # VSCode config
 
 .vscode/
+
+# Yarn lockfile
+
+yarn.lock
