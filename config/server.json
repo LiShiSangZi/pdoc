@@ -1,0 +1,7 @@
+{
+  "port": 8880,
+  "log": {
+    "accessLogPath": "/Users/qijiang/Documents/polex/cache/pdoc/access.log",
+    "errorLogPath": "/Users/qijiang/Documents/polex/cache/pdoc/error.log"
+  }
+}
